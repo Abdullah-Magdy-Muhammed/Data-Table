@@ -1,0 +1,59 @@
+body {
+  background-image: url("cat.jpg");
+}
+#myInput {
+  padding: 7px 20px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: wait;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+table {
+  border: 2px solid white;
+  width: 70vw;
+  margin: auto;
+  opacity: 0.6;
+}
+thead {
+  background-color: black;
+}
+tbody {
+  background-color: white;
+}
+button {
+  color: black;
+  padding: 5px 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+}
+.del:hover {
+  cursor: pointer;
+  background-color: rgb(197, 25, 25);
+  color: white;
+}
+.del {
+  color: rgb(197, 25, 25);
+}
+#coldel {
+  color: white;
+}
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+button {
+  border: none;
+}
